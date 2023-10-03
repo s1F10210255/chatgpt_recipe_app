@@ -26,7 +26,7 @@ class _ChatPageState extends State<ChatPage> {
 
   Future<void> _sendMessage(String text) async {
     final String endpoint = 'https://api.openai.iniad.org/api/v1/chat/completions'; // 新しいエンドポイント
-    final String apiKey = 'cd43qN-dzvcHSlK8aLf0v0xzRymCG09hHYSdBAmcNGOD1Y_-Wqt49APDXsytEeQS_5Z_Fkj1y19fNf7PdaujI4Q';
+    final String apiKey = '';
 
     final headers = {
       'Authorization': 'Bearer $apiKey',
